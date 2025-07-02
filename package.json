@@ -1,0 +1,34 @@
+{
+    "name": "telephonysdk",
+    "version": "0.6.11",
+    "main": "lib/client/index.js",
+    "scripts": {
+        "watch": "tsc -w",
+        "build": "tsc && npm run copy-resources",
+        "copy-resources": "npx copyfiles -u 1 src/resources/**/* lib",
+        "pack": "npm pack"
+    },
+    "keywords": [],
+    "author": "ApiFant",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@microsoft/signalr": "^8.0.7",
+        "@types/figlet": "^1.5.8",
+        "@types/jsonwebtoken": "^9.0.7",
+        "@types/node": "^22.5.4",
+        "dotenv": "^16.4.5",
+        "date-fns": "^4.1.0",
+        "winston": "^3.14.2",
+        "typescript": "^5.6.2",
+        "ts-node": "^10.9.2",
+        "figlet": "^1.8.0",
+        "jsonwebtoken": "^9.0.2"
+    },
+    "types": "lib/client/index.d.ts",
+    "files": [
+        "lib"
+    ],
+    "module": "lib/client/index.js",
+    "type": "module"
+}

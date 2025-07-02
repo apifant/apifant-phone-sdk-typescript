@@ -1,0 +1,21 @@
+
+
+export enum GatewayStateEnum {
+
+    CREATING = 'CREATING',
+    INACTIVE = 'INACTIVE',
+    DOWN = 'DOWN',
+    TRYING = 'TRYING',
+    REGISTER = 'REGISTER',
+    REGED = 'REGED',
+    UNREGISTER = 'UNREGISTER',
+    UNREGED = 'UNREGED',
+    TIMEOUT = 'TIMEOUT',
+    FAILED = 'FAILED',
+    FAIL_WAIT = 'FAIL_WAIT',
+    NOREG = 'NOREG',
+    EXPIRED = 'EXPIRED',
+    UNKNOWN = 'UNKNOWN'
+
+
+}

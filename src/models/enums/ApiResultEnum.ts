@@ -1,0 +1,11 @@
+
+
+export enum ApiResultEnum {
+
+    JOB_FINISHED = 'JOB_FINISHED',
+    JOB_FAILED = 'JOB_FAILED',
+    JOB_CANCELED = 'JOB_CANCELED',
+    JOB_ABORTED = 'JOB_ABORTED'
+
+
+}
